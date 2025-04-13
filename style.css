@@ -1,0 +1,129 @@
+html{
+    --main-color:white;
+    --alt-color: rgb(248, 40, 99);
+    font-family: "Lucida Console", "Courier New";
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    }
+h1{
+    font-family: "Arial", "Copperplate", "Courier New";
+    font-size: 45px; 
+    color: var(--main-color);
+}  
+h2{
+    font-family: "Comic Sans MS", cursive;
+    font-size: 45px; 
+    color: rgb(255, 255, 255); 
+}
+h3 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 17px; 
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.header_section{
+    background-image: url(../img/background_Img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    color:white;
+  }
+  
+  header{
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+  }
+  nav {
+    background-color: var(--alt-color);
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(255, 255, 255); 
+    font-family: "comic sans ms";
+}
+.banner_section{
+   background-color: rgba(0, 0, 0, 0.5); 
+   background-size: cover;
+   text-align: center;
+}
+
+button, .buttonstyle {
+    background-color: var(--alt-color);
+    border:none;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Comic Sans MS";
+    color: white;
+}
+
+button:hover, .buttonstyle:hover {
+    background-color: var(--main-color);
+    color: black;
+}
+
+.brand_color_set {
+    background-color: var(--main-color);
+    color: rgb(0, 0, 0);
+    font-style:normal;
+    font-size: medium;
+    text-decoration: none;
+}
+.flex_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    flex-direction: row;
+}
+
+.flex_item {
+    text-align: center;
+    text-decoration-color: black;
+    text-wrap: wrap;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    width: 300px;
+}
+.fixed-img {
+    border:none;
+    padding:0px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+  }
+.flex_column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    flex-direction: column;
+}
+.img_{
+    background-color: transparent;
+    border: none;       
+    padding: 0;          
+}
+.banner_img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+}
+.checkbox_section{
+    font-size: 20px;
+}
+.button_section{
+    color: var(--alt-color);
+    font-size: 20px;
+    padding: 10px 20px;
+}
